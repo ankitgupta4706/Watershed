@@ -8,12 +8,20 @@ In the context of image processing, the watershed algorithm works by treating th
 
 As the water flows, it gradually fills up the basins until the water from different basins meets at a ridge line. At this point, the algorithm creates a watershed boundary at the ridge line, separating the two basins. The process is repeated for all the local minima in the image, resulting in a segmentation of the image into multiple regions.
 
+https://user-images.githubusercontent.com/81372735/224669354-e3fb59a9-d438-4752-a87e-6c485bb0b199.mp4
+
 The watershed algorithm has been used in a wide range of applications, including medical imaging, remote sensing, and industrial inspection. However, the algorithm is sensitive to noise and can result in over-segmentation if not used carefully. We have used preprocessing techniques like Gaussian Smoothing, Low pass filter, quantization of pixel values to mitigate the same.
 # Flow Chart of Raw Watershed Algorithm
+<img width="562" alt="FC_1" src="https://user-images.githubusercontent.com/81372735/224673893-fbaefb61-eeda-4fb6-9c94-33de76bafc1f.PNG">
+<img width="562" alt="FC_2" src="https://user-images.githubusercontent.com/81372735/224674067-3dc6a49d-7dcc-410b-8173-dc6190e4c114.PNG">
+
 
 # Over-Segmentation Issue
 
+<img width="551" alt="Over-Segmentation Issue-1" src="https://user-images.githubusercontent.com/81372735/224668913-6e487665-52e0-448b-9527-3c6aa0cfdc32.PNG">
+
 # After Pre-Processing 
+<img width="373" alt="after-preprocessing" src="https://user-images.githubusercontent.com/81372735/224674198-caf1db54-9eaf-4652-a884-5630a2c1da6c.PNG">
 
 # Set Up
 
