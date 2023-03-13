@@ -29,6 +29,11 @@ We need to smoothen out the image
 using image procesing techniques. The results obtained are much better.
 <img width="373" alt="after-preprocessing" src="https://user-images.githubusercontent.com/81372735/224674198-caf1db54-9eaf-4652-a884-5630a2c1da6c.PNG">
 
+
+# Sample Outputs
+<img width="643" alt="sample_ops" src="https://user-images.githubusercontent.com/81372735/224685992-c9ff204b-d973-49bc-9a4a-6077325bc54d.PNG">
+
+
 # Set Up
 
 - pip install -r requirements.txt
